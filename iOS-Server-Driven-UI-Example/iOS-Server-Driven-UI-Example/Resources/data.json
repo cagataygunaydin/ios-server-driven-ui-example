@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "id": "featured",
+      "title": "Featured",
+      "layout": "slider",
+      "items": [
+        { "id": "1", "title": "Winter Theme" },
+        { "id": "2", "title": "Summer Theme" },
+        { "id": "3", "title": "Autumn Vibes" },
+        { "id": "4", "title": "Spring Collection" }
+      ]
+    },
+    {
+      "id": "popular",
+      "title": "Popular",
+      "layout": "grid",
+      "items": [
+        { "id": "5", "title": "Neon Lights" },
+        { "id": "6", "title": "Vintage Film" },
+        { "id": "7", "title": "Minimalist" },
+        { "id": "8", "title": "Cyberpunk" },
+        { "id": "9", "title": "Retro Wave" }
+      ]
+    },
+    {
+      "id": "seasonal",
+      "title": "Seasonal 🎄",
+      "layout": "grid",
+      "items": [
+        { "id": "10", "title": "Christmas" },
+        { "id": "11", "title": "New Year" },
+        { "id": "12", "title": "Halloween" },
+        { "id": "13", "title": "Valentine's Day" }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "Trending 🔥",
+      "layout": "grid",
+      "items": [
+        { "id": "14", "title": "AI Portrait" },
+        { "id": "15", "title": "Cartoon Style" },
+        { "id": "16", "title": "Oil Painting" },
+        { "id": "17", "title": "Watercolor" },
+        { "id": "18", "title": "Sketch Art" }
+      ]
+    }
+  ]
+}
