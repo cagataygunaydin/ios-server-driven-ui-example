@@ -1,0 +1,22 @@
+{
+  "templates": [
+    {
+      "id": "1",
+      "title": "Template 1",
+      "subtitle": "Template 1 - Text Input",
+      "inputType": "text"
+    },
+    {
+      "id": "2",
+      "title": "Template 2",
+      "subtitle": "Template 2 - Single Image Input",
+      "inputType": "singleImage"
+    },
+    {
+      "id": "3",
+      "title": "Template 3",
+      "subtitle": "Template 3 - Double Image Input",
+      "inputType": "doubleImage"
+    }
+  ]
+}
