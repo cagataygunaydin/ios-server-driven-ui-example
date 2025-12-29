@@ -11,26 +11,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D188E802F020ECA007BB454 /* iOS-Server-Driven-UI-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Server-Driven-UI-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D188E802F020ECA007BB454 /* DynamicContent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicContent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2D188E922F020ECC007BB454 /* Exceptions for "iOS-Server-Driven-UI-Example" folder in "iOS-Server-Driven-UI-Example" target */ = {
+		2D188E922F020ECC007BB454 /* Exceptions for "DynamicContent" folder in "DynamicContent" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/Info.plist,
 			);
-			target = 2D188E7F2F020ECA007BB454 /* iOS-Server-Driven-UI-Example */;
+			target = 2D188E7F2F020ECA007BB454 /* DynamicContent */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2D188E822F020ECA007BB454 /* iOS-Server-Driven-UI-Example */ = {
+		2D188E822F020ECA007BB454 /* DynamicContent */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				2D188E922F020ECC007BB454 /* Exceptions for "iOS-Server-Driven-UI-Example" folder in "iOS-Server-Driven-UI-Example" target */,
+				2D188E922F020ECC007BB454 /* Exceptions for "DynamicContent" folder in "DynamicContent" target */,
 			);
-			path = "iOS-Server-Driven-UI-Example";
+			path = DynamicContent;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -50,7 +50,7 @@
 		2D188E772F020ECA007BB454 = {
 			isa = PBXGroup;
 			children = (
-				2D188E822F020ECA007BB454 /* iOS-Server-Driven-UI-Example */,
+				2D188E822F020ECA007BB454 /* DynamicContent */,
 				2D188E812F020ECA007BB454 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 		2D188E812F020ECA007BB454 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D188E802F020ECA007BB454 /* iOS-Server-Driven-UI-Example.app */,
+				2D188E802F020ECA007BB454 /* DynamicContent.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D188E7F2F020ECA007BB454 /* iOS-Server-Driven-UI-Example */ = {
+		2D188E7F2F020ECA007BB454 /* DynamicContent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D188E932F020ECC007BB454 /* Build configuration list for PBXNativeTarget "iOS-Server-Driven-UI-Example" */;
+			buildConfigurationList = 2D188E932F020ECC007BB454 /* Build configuration list for PBXNativeTarget "DynamicContent" */;
 			buildPhases = (
 				2D188E7C2F020ECA007BB454 /* Sources */,
 				2D188E7D2F020ECA007BB454 /* Frameworks */,
@@ -79,14 +79,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2D188E822F020ECA007BB454 /* iOS-Server-Driven-UI-Example */,
+				2D188E822F020ECA007BB454 /* DynamicContent */,
 			);
-			name = "iOS-Server-Driven-UI-Example";
+			name = DynamicContent;
 			packageProductDependencies = (
 				2D188FCB2F02165A007BB454 /* SnapKit */,
 			);
 			productName = "iOS-Server-Driven-UI-Example";
-			productReference = 2D188E802F020ECA007BB454 /* iOS-Server-Driven-UI-Example.app */;
+			productReference = 2D188E802F020ECA007BB454 /* DynamicContent.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D188E7B2F020ECA007BB454 /* Build configuration list for PBXProject "iOS-Server-Driven-UI-Example" */;
+			buildConfigurationList = 2D188E7B2F020ECA007BB454 /* Build configuration list for PBXProject "DynamicContent" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D188E7F2F020ECA007BB454 /* iOS-Server-Driven-UI-Example */,
+				2D188E7F2F020ECA007BB454 /* DynamicContent */,
 			);
 		};
 /* End PBXProject section */
@@ -156,7 +156,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P8Y6KKRJLB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS-Server-Driven-UI-Example/Resources/Info.plist";
+				INFOPLIST_FILE = DynamicContent/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DynamicContent;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -166,7 +167,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gunaydin.iOS-Server-Driven-UI-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gunaydin.DynamicContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -187,7 +188,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P8Y6KKRJLB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS-Server-Driven-UI-Example/Resources/Info.plist";
+				INFOPLIST_FILE = DynamicContent/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DynamicContent;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -197,7 +199,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gunaydin.iOS-Server-Driven-UI-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gunaydin.DynamicContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -333,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D188E7B2F020ECA007BB454 /* Build configuration list for PBXProject "iOS-Server-Driven-UI-Example" */ = {
+		2D188E7B2F020ECA007BB454 /* Build configuration list for PBXProject "DynamicContent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D188E962F020ECC007BB454 /* Debug */,
@@ -342,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D188E932F020ECC007BB454 /* Build configuration list for PBXNativeTarget "iOS-Server-Driven-UI-Example" */ = {
+		2D188E932F020ECC007BB454 /* Build configuration list for PBXNativeTarget "DynamicContent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D188E942F020ECC007BB454 /* Debug */,
