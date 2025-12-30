@@ -2,7 +2,7 @@
 
 Example projects demonstrating how to implement Server-Driven UI architecture in iOS.
 
-📖 **Medium Article**: [What is Server-Driven UI?](link)
+📖 **Medium Article**: [iOS'ta Server-Driven UI Nasıl Uygulanır?](https://medium.com/@cagataygunaydin/iosta-server-driven-ui-nas%C4%B1l-uygulan%C4%B1r-685bda408e7b)
 
 ---
 
